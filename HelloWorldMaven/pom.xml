@@ -80,21 +80,35 @@
     </dependency>
 
     <dependency>
-      <groupId>org.apache.camel.springboot</groupId>
+      <groupId>org.apache.camel</groupId>
       <artifactId>camel-spring-boot-starter</artifactId>
-      <version>3.18.1</version>
+      <version>2.23.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-core-starter</artifactId>
+      <version>2.23.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-spring-javaconfig</artifactId>
+      <version>2.23.2</version>
+    </dependency>
+    <!-- Thanks for using https://jar-download.com -->
+
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-spring-boot</artifactId>
+      <version>2.23.2</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-spring</artifactId>
-      <version>3.18.1</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-core-xml</artifactId>
-      <version>3.18.1</version>
+      <version>2.23.2</version>
     </dependency>
 
     <dependency>
@@ -115,6 +129,20 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <version>2.7.3</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-test-spring</artifactId>
+      <version>2.23.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-test</artifactId>
+      <version>2.23.2</version>
       <scope>test</scope>
     </dependency>
 
